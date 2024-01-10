@@ -1,6 +1,6 @@
 """
-该脚本用于抽取ocr的cnn特征（512D），conda环境为server4的sma
-1、读取gt注释文件
+该脚本用于抽取ocr的cnn特征（512D）
+1、读取注释文件
 2、遍历ocr，根据bbox对原图进行裁剪得到新图，将新图传入模型，得到512D的cnn特征
 3、将特征存入原注释文件
 
@@ -21,10 +21,6 @@ from models.model import MODEL
 from models.transformer.Constants import UNK, PAD, BOS, EOS, PAD_WORD, UNK_WORD, BOS_WORD, EOS_WORD
 import os, sys, pdb
 from tqdm import tqdm
-
-# IMDB_FILE = "/nfs/users/hongbo/SMA/code/data/imdb/imdb_noempty_train.npy"
-# IMDB_FILE = "/nfs/users/hongbo/SMA/code/data/imdb/imdb_noempty_val.npy"
-# IMDB_FILE = "/nfs/users/hongbo/SMA/code/data/imdb/imdb_noempty_test.npy"
 
 # IMDB_FILE = "/nfs/users/hongbo/CRN_env/data/crn_textvqa/imdb/imdb_train_ppocr.npy"
 # IMDB_FILE = "/nfs/users/hongbo/CRN_env/data/crn_textvqa/imdb/imdb_val_ppocr.npy"
