@@ -176,6 +176,8 @@ class MODEL(nn.Module):
         # Encoder #
         cnn_feat = self.encoder(x)
         global_feat = self.extract_g(cnn_feat)
+        new_output = global_feat
+        return new_output
         
         text1_new = text1_ori
         text2_new = text2_ori
