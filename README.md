@@ -1,6 +1,6 @@
 ## 简介
 
-为了使用该模型的cnn特征，故修改pre_img.py以及models/model.py，得到编码器的512D的cnn特征。
+原有模型是编码器解码器架构，其编码器基于ResNet提取了512D的cnn特征，为了使用该cnn特征，故修改pre_img.py以及models/model.py，得到编码器的512D的cnn特征。
 
 
 
