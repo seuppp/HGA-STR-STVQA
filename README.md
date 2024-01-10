@@ -27,5 +27,3 @@ python pre_img.py
 ## 结果
 
 对于一张图片，可以得到其512D的cnn特征。
-
-![image-20240110113333656](C:\Users\97104\AppData\Roaming\Typora\typora-user-images\image-20240110113333656.png)
