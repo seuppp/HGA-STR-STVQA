@@ -1,6 +1,7 @@
 ## 简介
 
 原有模型是编码器解码器架构，其编码器基于ResNet提取了512D的cnn特征，为了使用该cnn特征，故修改pre_img.py以及models/model.py，得到编码器的512D的cnn特征。
+仓库名为HGA-STR-STVQA是因为我要在STVQA场景文本视觉问答任务下应用该技术。
 
 
 
