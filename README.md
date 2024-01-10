@@ -20,6 +20,7 @@
 ## 使用
 
 cd /your_path/HGA-STR
+
 python pre_img.py
 
 
